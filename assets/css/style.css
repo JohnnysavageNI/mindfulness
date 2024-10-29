@@ -1,0 +1,32 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poiret+One&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles*/
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color: #010101;
+}
+/* Header */
+header {
+    background-color: #E6F7FF;
+    
+}
+
+main {
+    background-color: #f37e7e;
+}
+
+footer {
+    background-color: darkslateblue;
+}
+
