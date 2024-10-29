@@ -9,23 +9,24 @@
 }
 
 /* General Styles*/
-
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2px;
-    color: #010101;
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color:rgb(32, 32, 32);
 }
+
 /* Header */
 header {
     background-color: #E6F7FF;
     
 }
-
+/*  Main Content*/
 main {
-    background-color: #f37e7e;
+    background-color: #c4c4c4;
+    flex: 1 0 auto;
 }
-
+/* Footer */
 footer {
     background-color: darkslateblue;
 }
