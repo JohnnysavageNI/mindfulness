@@ -38,7 +38,21 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: cornflowerblue;
+    color: #6394ed;
+}
+
+#menu {
+    list-style-type: none;
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+#menu > li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 2px dashed #6394ed;
 }
 
 /*  Main Content*/
