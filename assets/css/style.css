@@ -16,12 +16,13 @@ body {
     color:rgb(32, 32, 32);
     font-family: 'Poiret One', sans-serif;
     font-weight: bold;
+    margin: 0;
 }
 
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 1rem 1rem;
+    padding: 0rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -44,25 +45,82 @@ h1 {
     color: #6394ed;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
 #menu {
     list-style-type: none;
-    font-size: 150%;
+    font-size: 110%;
     letter-spacing: 2px;
     padding-right: 1rem;
 }
 
 #menu > li {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 2px dashed #6394ed;
 }
 
-/*  Main Content*/
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    color: #6394ed;
+}
+
+/* Main content */
 main {
-    background-color: #c4c4c4;
-    flex: 1 0 auto;
+    flex: 1;
+    margin-top: 30px;
+}
+
+/* Hero section */
+#hero {
+    height: 88vh;
+    width: 100vw;
+    object-fit: cover;
+    background: url("../images/pexels-pixabay-247599.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#intro-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(99, 148, 237, .7);
+    font-size: 125%;
+    position: absolute;
+    top: 50px;
+    left: 20px;
 }
 
 /* Footer */
@@ -77,7 +135,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #6394ed;
 }
 
 /* Media query: tablets and larger (768px and up) copy from love-running project */
@@ -98,4 +156,14 @@ main {
     #menu > li {
         padding-left: 1rem;
     }
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
 }
