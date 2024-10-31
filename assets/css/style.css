@@ -21,11 +21,14 @@ body {
 /* Header */
 header {
     background-color: #ffffff;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 10px 14px #a3a3a3;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     
 }
 
@@ -45,6 +48,7 @@ h1 {
     list-style-type: none;
     font-size: 150%;
     letter-spacing: 2px;
+    padding-right: 1rem;
 }
 
 #menu > li {
@@ -65,3 +69,21 @@ footer {
     background-color: darkslateblue;
 }
 
+/* Media query: tablets and larger (768px and up) copy from love-running project */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
