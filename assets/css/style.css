@@ -64,9 +64,20 @@ main {
     background-color: #c4c4c4;
     flex: 1 0 auto;
 }
+
 /* Footer */
-footer {
-    background-color: darkslateblue;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query: tablets and larger (768px and up) copy from love-running project */
@@ -87,3 +98,4 @@ footer {
     #menu > li {
         padding-left: 1rem;
     }
+}
