@@ -125,7 +125,7 @@ nav {
 /* Top tips */
 
 #tips-hero {
-    height: 120vh;
+    height: 140vh;
     width: 100vw;
     background: url("../images/pexels-mahima-518693-1250260.jpg") no-repeat center center/cover;
     position: relative;
@@ -211,5 +211,8 @@ tr {
         width: 300px;
         right: 50px;
     }
+
+    #tips-hero {
+        height: 90vh;
 
 }
