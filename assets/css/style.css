@@ -9,14 +9,13 @@
 }
 
 /* General Styles*/
+
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     color:rgb(32, 32, 32);
     font-family: 'Poiret One', sans-serif;
-    font-weight: bold;
-    margin: 0;
 }
 
 /* Header */
@@ -38,6 +37,14 @@ header a {
     color: inherit;
 }
 
+/* Main content */
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -45,7 +52,7 @@ h1 {
     color: #6394ed;
 }
 
-h2 {
+h2, h3 {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
     color: #ffffff;
@@ -96,19 +103,13 @@ nav {
     color: #6394ed;
 }
 
-/* Main content */
-main {
-    flex: 1;
-    margin-top: 30px;
-}
-
 /* Hero section */
 #hero {
     height: 88vh;
-    width: 100vw;
-    object-fit: cover;
+    width: 100%;
     background: url("../images/pexels-pixabay-247599.jpg") no-repeat center center/cover;
     position: relative;
+ 
 }
 
 #intro-text {
@@ -116,12 +117,47 @@ main {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: rgba(99, 148, 237, .7);
+    background-color: rgba(99, 148, 237, .5);
     font-size: 125%;
     position: absolute;
     top: 50px;
     left: 20px;
 }
+
+/* Top tips */
+
+#tips-hero {
+    height: 120vh;
+    width: 100vw;
+    background: url("../images/pexels-mahima-518693-1250260.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#tips-text {
+    position: absolute;
+    font-size: 125%;
+    background-color: rgba(99, 148, 237, .5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    left: 20px;
+    top: 40px;
+    line-height: 50px;
+}
+
+table {
+	width: 60%;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    text-align: left;
+    color: #ffffff;
+    font-size: small;
+}
+
 
 /* Footer */
 #social-networks {
@@ -164,6 +200,18 @@ main {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+
+       /* Main content */
+       main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+
+    /* Hero */
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 
 }
