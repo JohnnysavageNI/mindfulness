@@ -34,3 +34,30 @@ Target audience can be absolutely anyone as mindfulness and good mental health i
 ![Screenshot of favicon in tab](assets/images/form.png)
 
 ![Screenshot of favicon in tab](assets/images/large-screen.png)
+
+# Testing
+
+- As mentioned in previous section, all inputs have been tested and are working.
+- All HTML was tested in [W3C validator](https://validator.w3.org/) with no errors.
+- All CSS was tested in [W3C validator](https://jigsaw.w3.org/css-validator/) with no errors.
+- Website was tested using lighthouse and received excellent scores but performance is a little low.
+
+![Screenshot of favicon in tab](assets/images/lighthouse.png)
+
+# Deployment
+
+1. Go to the Settings tab of your GitHub repo.
+2. On the left-hand sidebar, in the Code and automation section, select Pages.
+3. Make sure:
+    - Source is set to 'Deploy from Branch'.
+    - Main branch is selected.
+    - Folder is set to / (root).
+4. Under Branch, click Save.
+5. Go back to the Code tab. Wait a few minutes for the build to finish and refresh your repo.
+6. On the right-hand side, in the Environments section, click on 'github-pages'.
+7. Click View deployment to see the live site. 
+
+Deployment steps from the [Code Institute](https://codeinstitute.net/)
+
+Live link for this project can be found [here](https://johnnysavageni.github.io/mindfulness/)
+
