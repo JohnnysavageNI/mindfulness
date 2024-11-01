@@ -166,7 +166,7 @@ tr {
 }
 
 #join-form {
-    background-color: rgba(99, 148, 237, 0.5);
+    background-color: rgba(99, 148, 237, 0.8);
     padding: 30px;
     color: #ffffff;
     text-align: center;
@@ -174,7 +174,7 @@ tr {
 }
 
 .text-input {
-    background: rgba(99, 148, 237, .5);
+    background: rgba(99, 148, 237, .4);
     border-radius: 6px;
     height: 30px;
     width: 100%;
@@ -251,8 +251,9 @@ tr {
     #tips-hero {
         height: 90vh;
 
-}
+    }
 
-#join-form {
-    width: 40%;
+    #join-form {
+        width: 40%;
+    }
 }
