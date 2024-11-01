@@ -1,3 +1,3 @@
 # Head Minder - for mindfulness
 
-![Screenshot of home page](image/home.png)
+![Screenshot of home page]("../images/home.png")
