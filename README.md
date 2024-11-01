@@ -61,3 +61,10 @@ Deployment steps from the [Code Institute](https://codeinstitute.net/)
 
 Live link for this project can be found [here](https://johnnysavageni.github.io/mindfulness/)
 
+# Credits 
+
+- Most of header and footer came from the [Love Running](https://github.com/JohnnysavageNI/love-running) project.
+- Favicon was generated using [favicon](https://github.com/JohnnysavageNI/love-running)
+- All photos came from [Pexels](https://www.pexels.com/)
+- Icons from [Font Awesome](https://fontawesome.com/)
+- Fonts from [Google Fonts](https://fonts.google.com/)
