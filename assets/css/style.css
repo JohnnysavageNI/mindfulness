@@ -180,6 +180,7 @@ tr {
     width: 100%;
     margin: 5px 0 15px 0;
     border: 1px solid #fafafa;
+    margin: 5px 0 20px 0;
     
 }
 
@@ -250,4 +251,8 @@ tr {
     #tips-hero {
         height: 90vh;
 
+}
+
+#join-form {
+    width: 40%;
 }
